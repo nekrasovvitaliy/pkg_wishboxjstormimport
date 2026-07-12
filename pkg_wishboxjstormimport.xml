@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="4.4.0" method="upgrade">
+    <name>WishboxJsToRmImport</name>
+    <packagename>wishboxjstormimport</packagename>
+    <version>1.0.0</version>
+    <creationDate>July 2026</creationDate>
+    <author>Play and Learn</author>
+    <description>PKG_WISHBOXJSTORMIMPORT_XML_DESCRIPTION</description>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/pkg_wishboxjstormimport.sys.ini</language>
+        <language tag="ru-RU">ru-RU/pkg_wishboxjstormimport.sys.ini</language>
+    </languages>
+    <files>
+        <file type="library" id="wishboxjstormimport">lib_wishboxjstormimport.zip</file>
+        <file type="plugin" group="console" id="wishboxjstormimport">plg_console_wishboxjstormimport.zip</file>
+    </files>
+</extension>

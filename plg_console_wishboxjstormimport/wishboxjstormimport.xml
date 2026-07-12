@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="console" method="upgrade">
+    <name>WishboxJsToRmImport Console</name>
+    <author>Play and Learn</author>
+    <creationDate>July 2026</creationDate>
+    <license>GNU General Public License version 2 or later</license>
+    <version>1.0.0</version>
+    <description>PLG_CONSOLE_WISHBOXJSTORMIMPORT_XML_DESCRIPTION</description>
+    <namespace path="src">Joomla\Plugin\Console\WishboxJsToRmImport</namespace>
+    <scriptfile>script.php</scriptfile>
+    <files>
+        <folder plugin="wishboxjstormimport">services</folder>
+        <folder>src</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/plg_console_wishboxjstormimport.ini</language>
+        <language tag="en-GB">language/en-GB/plg_console_wishboxjstormimport.sys.ini</language>
+        <language tag="ru-RU">language/ru-RU/plg_console_wishboxjstormimport.ini</language>
+        <language tag="ru-RU">language/ru-RU/plg_console_wishboxjstormimport.sys.ini</language>
+    </languages>
+</extension>

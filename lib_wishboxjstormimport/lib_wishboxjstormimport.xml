@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade">
+    <name>WishboxJsToRmImport Library</name>
+    <libraryname>wishboxjstormimport</libraryname>
+    <creationDate>July 2026</creationDate>
+    <author>Play and Learn</author>
+    <version>1.0.0</version>
+    <namespace path="src">WishboxJsToRmImportLibrary</namespace>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/lib_wishboxjstormimport.sys.ini</language>
+        <language tag="ru-RU">ru-RU/lib_wishboxjstormimport.sys.ini</language>
+    </languages>
+    <files>
+        <folder>src</folder>
+    </files>
+</extension>
